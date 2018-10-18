@@ -18,11 +18,9 @@ module.exports = function validateExperienceInput(data) {
         errors.from = 'From data field is required';
     }
 
-
     return {
         errors,
         isValid: isEmpty(errors)
-
     }
 
 }
